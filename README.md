@@ -1,4 +1,4 @@
-# multi-process-queue
+# swoole-process-queue
 
 【推送测试项目】基于swoole的多进程队列系统，manage进程管理子进程，master进程监听队列分发任务，worker进程执行任务，
 多进程、低延时(最低毫秒级)、低资源占用、高可用、可多服务器分布式部署。可与 laravel thinkphp 等框架配合使用。
@@ -92,7 +92,7 @@ fail_handle的执行时间也受timeout的控制
  ### 1.安装
  - composer 安装
  ```
-  composer require pengjch/multi-process-queue
+  composer require pengjch/swoole-process-queue
  ```
  - 或者直接下载压缩包 然后执行composer install
  ### 2. 启动队列
@@ -198,7 +198,7 @@ MPQueue\Queue\Queue::push 接收三个参数：
 ## 在laravel中使用
 - 安装
 ```
-  composer require pengjch/multi-process-queue
+  composer require pengjch/swoole-process-queue
 ```
 - 在config文件夹中建立配置文件mp-queue.php
 ```
@@ -277,7 +277,7 @@ Class HelloWord extends Job{
 ## 在thinkphp5.0中使用
 - 安装
 ```
-  composer require pengjch/multi-process-queue
+  composer require pengjch/swoole-process-queue
 ```
 - 在application/extra文件夹中建立配置文件mp-queue.php
 ```
@@ -352,7 +352,7 @@ Class HelloWord extends Job{
 ## 在thinkphp6.0中使用
 - 安装
 ```
-  composer require pengjch/multi-process-queue
+  composer require pengjch/swoole-process-queue
 ```
 - 在config文件夹中建立配置文件mp-queue.php
 ```
