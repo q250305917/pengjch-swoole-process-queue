@@ -92,7 +92,7 @@ fail_handle的执行时间也受timeout的控制
  ### 1.安装
  - composer 安装
  ```
-  composer require yuntian001/multi-process-queue
+  composer require pengjch/multi-process-queue
  ```
  - 或者直接下载压缩包 然后执行composer install
  ### 2. 启动队列
@@ -198,7 +198,7 @@ MPQueue\Queue\Queue::push 接收三个参数：
 ## 在laravel中使用
 - 安装
 ```
-  composer require yuntian001/multi-process-queue
+  composer require pengjch/multi-process-queue
 ```
 - 在config文件夹中建立配置文件mp-queue.php
 ```
@@ -277,7 +277,7 @@ Class HelloWord extends Job{
 ## 在thinkphp5.0中使用
 - 安装
 ```
-  composer require yuntian001/multi-process-queue
+  composer require pengjch/multi-process-queue
 ```
 - 在application/extra文件夹中建立配置文件mp-queue.php
 ```
@@ -352,7 +352,7 @@ Class HelloWord extends Job{
 ## 在thinkphp6.0中使用
 - 安装
 ```
-  composer require yuntian001/multi-process-queue
+  composer require pengjch/multi-process-queue
 ```
 - 在config文件夹中建立配置文件mp-queue.php
 ```
